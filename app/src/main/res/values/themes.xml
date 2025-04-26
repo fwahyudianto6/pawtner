@@ -5,12 +5,22 @@
         <item name="colorPrimary">@color/purple_500</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
         <item name="colorOnPrimary">@color/white</item>
+
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/teal_200</item>
         <item name="colorSecondaryVariant">@color/teal_700</item>
         <item name="colorOnSecondary">@color/black</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+
         <!-- Customize your theme here. -->
+    </style>
+
+    <!-- Splashscreen-->
+    <style name="Theme.Pawtner.StartingScreen" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/pawtner_bg_screen</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_pawtner_launcher</item>
+        <item name="windowSplashScreenAnimationDuration">300</item>
+        <item name="postSplashScreenTheme">@style/Theme.Pawtner</item>
     </style>
 </resources>

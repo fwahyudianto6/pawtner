@@ -1,6 +1,7 @@
 [versions]
 agp = "8.8.2"
 circleimageview = "3.1.0"
+coreSplashscreen = "1.0.1"
 glide = "4.16.0"
 imageslideshow = "0.1.0"
 kotlin = "1.9.24"
@@ -20,6 +21,7 @@ retrofit = "2.9.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-core-splashscreen = { module = "androidx.core:core-splashscreen", version.ref = "coreSplashscreen" }
 circleimageview = { module = "de.hdodenhof:circleimageview", version.ref = "circleimageview" }
 converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "retrofit" }
 glide = { module = "com.github.bumptech.glide:glide", version.ref = "glide" }

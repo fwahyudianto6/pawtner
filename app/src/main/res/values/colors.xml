@@ -5,12 +5,22 @@
     <color name="pawtner_bg_light">#F7F9FF</color>"
     <color name="pawtner_bg_black">#161F36</color>"
 
-    <!-- Default color. -->
-    <color name="purple_200">#FFBB86FC</color>
-    <color name="purple_500">#FF6200EE</color>
-    <color name="purple_700">#FF3700B3</color>
-    <color name="teal_200">#FF03DAC5</color>
-    <color name="teal_700">#FF018786</color>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <!-- Primary Colors -->
+    <color name="primary_orange">#FF9933</color>
+    <color name="primary_orange_variant">#F27405</color>
+    <color name="primary_brown">#BF6430</color>
+    <color name="primary_light_orange">#FF9F2B</color>
+    <color name="primary_light_brown">#F2D0A7</color>
+
+    <!-- Secondary Colors -->
+    <color name="secondary_gradient_black">#313131</color>
+    <color name="secondary_red">#F23030</color>
+    <color name="secondary_dark_grey">#B9B9B9</color>
+    <color name="secondary_grey">#CACACA</color>
+    <color name="secondary_soft_grey">#E7E7E7</color>
+    <color name="secondary_subtle_brown">#FFF6EC</color>
+
+    <!-- Base Colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#313131</color>
 </resources>

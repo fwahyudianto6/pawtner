@@ -1,19 +1,37 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
     <!-- Base application theme. -->
-    <style name="Theme.Pawtner" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
-        <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/purple_500</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
+    <style name="Theme.Pawtner" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Primary brand colors -->
+        <item name="colorPrimary">@color/primary_orange</item>
+        <item name="colorPrimaryVariant">@color/primary_orange_variant</item>
         <item name="colorOnPrimary">@color/white</item>
 
-        <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/teal_200</item>
-        <item name="colorSecondaryVariant">@color/teal_700</item>
-        <item name="colorOnSecondary">@color/black</item>
-        <!-- Status bar color. -->
-        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <item name="colorSecondary">@color/primary_brown</item>
+        <item name="colorSecondaryVariant">@color/primary_light_orange</item>
+        <item name="colorOnSecondary">@color/white</item>
 
-        <!-- Customize your theme here. -->
+        <!-- Background colors -->
+        <item name="android:colorBackground">@color/white</item>
+        <item name="colorSurface">@color/secondary_subtle_brown</item>
+        <item name="colorOnSurface">@color/secondary_gradient_black</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:textColorPrimary">@color/black</item>
+
+        <!-- Error colors -->
+        <item name="colorError">@color/secondary_red</item>
+        <item name="colorOnError">@color/white</item>
+
+        <!-- Typography -->
+        <item name="fontFamily">@font/poppins_regular</item>
+
+        <!-- ActionBar specific -->
+        <item name="android:actionBarStyle">@style/ActionBarStyle</item>
+        <item name="android:toolbarStyle">@style/Widget.Pawtner.Toolbar</item>
+
+        <!-- Component Specific -->
+        <item name="editTextBackground">@drawable/edit_text_background</item>
+        <item name="checkboxStyle">@style/Widget.Pawtner.CheckBox</item>
+        <item name="buttonStyle">@style/Widget.Pawtner.Button</item>
     </style>
 
     <!-- Splashscreen-->
@@ -22,5 +40,54 @@
         <item name="windowSplashScreenAnimatedIcon">@drawable/ic_pawtner_launcher</item>
         <item name="windowSplashScreenAnimationDuration">300</item>
         <item name="postSplashScreenTheme">@style/Theme.Pawtner</item>
+    </style>
+
+    <!-- Button Style -->
+    <style name="Widget.Pawtner.Button" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/primary_orange</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="cornerRadius">16dp</item>
+    </style>
+
+    <!-- EditText (Input) Style -->
+    <style name="Widget.Pawtner.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxBackgroundColor">@color/secondary_subtle_brown</item>
+        <item name="hintTextColor">@color/secondary_dark_grey</item>
+        <item name="android:textColorHint">@color/secondary_dark_grey</item>
+        <item name="android:textColor">@color/secondary_gradient_black</item>
+    </style>
+
+    <!-- Checkbox Style -->
+    <style name="Widget.Pawtner.CheckBox" parent="Widget.MaterialComponents.CompoundButton.CheckBox">
+        <item name="android:buttonTint">@color/primary_orange</item>
+    </style>
+
+    <!-- Toolbar Modern -->
+    <style name="Widget.Pawtner.Toolbar" parent="Widget.MaterialComponents.Toolbar.Primary">
+        <item name="android:background">@color/primary_orange</item>
+        <item name="android:titleTextColor">@color/white</item>
+        <item name="android:subtitleTextColor">@color/white</item>
+    </style>
+
+    <style name="ActionBarStyle" parent="Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/primary_orange</item>
+        <item name="android:titleTextStyle">@style/ActionBarTitleText</item>
+    </style>
+
+    <style name="ActionBarStyle.Dark" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/primary_orange</item>
+        <item name="android:titleTextStyle">@style/ActionBarTitleText.Dark</item>
+    </style>
+
+    <style name="ActionBarTitleText">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/poppins_bold</item>
+    </style>
+
+    <style name="ActionBarTitleText.Dark">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/poppins_bold</item>
     </style>
 </resources>

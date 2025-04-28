@@ -1,25 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_home">
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_home">
 
+    <!-- Home -->
     <fragment
         android:id="@+id/navigation_home"
         android:name="com.fwahyudianto.pawtner.ui.home.HomeFragment"
-        android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" />
-
+        android:label="Home" />
+    <!-- Pets -->
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="com.fwahyudianto.pawtner.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
-
+        android:id="@+id/navigation_pets"
+        android:name="com.fwahyudianto.pawtner.ui.pets.PetsFragment"
+        android:label="Pets" />
+    <!-- Favorite -->
     <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="com.fwahyudianto.pawtner.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        android:id="@+id/navigation_favorite"
+        android:name="com.fwahyudianto.pawtner.ui.favorite.FavoriteFragment"
+        android:label="Favorite" />
+    <!-- Account -->
+    <fragment
+        android:id="@+id/navigation_account"
+        android:name="com.fwahyudianto.pawtner.ui.account.AccountFragment"
+        android:label="Account" />
+    <!-- My Pets (dari FAB) -->
+    <fragment
+        android:id="@+id/navigation_mypets"
+        android:name="com.fwahyudianto.pawtner.ui.mypets.MyPetsFragment"
+        android:label="My Pets" />
 </navigation>

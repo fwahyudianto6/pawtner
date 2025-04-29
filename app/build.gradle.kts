@@ -64,6 +64,7 @@ dependencies {
     implementation(libs.logging.interceptor)
     implementation(libs.androidx.legacy.support.v4)
     implementation(libs.androidx.fragment.ktx)
+    implementation(libs.androidx.activity)
 
     //  Unit Testing
     testImplementation(libs.junit)

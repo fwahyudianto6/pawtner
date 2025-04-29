@@ -42,6 +42,13 @@
         <item name="postSplashScreenTheme">@style/Theme.Pawtner</item>
     </style>
 
+    <style name="Theme.Pawtner.NoActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+
     <!-- Button Style -->
     <style name="Widget.Pawtner.Button" parent="Widget.MaterialComponents.Button">
         <item name="backgroundTint">@color/primary_orange</item>

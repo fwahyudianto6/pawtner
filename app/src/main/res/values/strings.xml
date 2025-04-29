@@ -1,6 +1,17 @@
 <resources>
+    <!-- Application -->
     <string name="app_name">Pawtner</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+
+    <!-- Navigation Menu -->
+    <string name="menu_home">Home</string>
+    <string name="menu_pets">Pets</string>
+    <string name="menu_mypets">My Pets</string>
+    <string name="menu_favorite">Favorite</string>
+    <string name="menu_account">Account</string>
+
+    <!-- Started Screen -->
+    <string name="started.title">Cari dan Adopsi Hewan</string>
+    <string name="started.subtitle">Temukan hewan berdasarkan keinginan kamu tanpa perlu keluar rumah hanya dengan menggunakan smartphone</string>
+    <string name="started.btnStart">Mulai</string>
+    <string name="started.suggest">Sudah punya akun? Masuk</string>
 </resources>

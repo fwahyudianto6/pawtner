@@ -2,23 +2,21 @@
 <androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/coordinatorLayout"
+    android:id="@+id/main_coordlayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <!-- Fragment Container -->
     <fragment
-        android:id="@+id/nav_host_fragment"
+        android:id="@+id/main.navhost.fragment"
         android:name="androidx.navigation.fragment.NavHostFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:defaultNavHost="true"
         app:navGraph="@navigation/mobile_navigation" />
 
-    <!-- BottomAppBar + Floating Action Button -->
     <com.google.android.material.bottomappbar.BottomAppBar
-        android:id="@+id/bottomAppBar"
+        android:id="@+id/main.bottomAppBar"
         android:layout_width="match_parent"
         android:layout_height="55dp"
         android:layout_gravity="bottom"
@@ -30,20 +28,18 @@
         app:fabCradleVerticalOffset="10dp"
         app:hideOnScroll="true" />
 
-    <!-- Floating Button -->
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/fab"
+        android:id="@+id/main.btn_mypets"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/primary_orange"
         android:src="@drawable/ic_add_circle"
         android:tint="@color/white"
-        app:layout_anchor="@id/bottomAppBar"
+        app:layout_anchor="@id/main.bottomAppBar"
         app:layout_anchorGravity="center" />
 
-    <!-- Bottom Navigation Menu -->
     <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/bottomNavigationView"
+        android:id="@+id/main.bottomNavView"
         android:layout_width="match_parent"
         android:layout_height="55dp"
         android:layout_gravity="bottom"

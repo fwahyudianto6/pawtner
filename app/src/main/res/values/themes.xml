@@ -38,11 +38,11 @@
     <style name="Theme.Pawtner.StartingScreen" parent="Theme.SplashScreen">
         <item name="windowSplashScreenBackground">@color/pawtner_bg_screen</item>
         <item name="windowSplashScreenAnimatedIcon">@drawable/ic_pawtner_launcher</item>
-        <item name="windowSplashScreenAnimationDuration">300</item>
-        <item name="postSplashScreenTheme">@style/Theme.Pawtner</item>
+        <item name="windowSplashScreenAnimationDuration">500</item>
+        <item name="postSplashScreenTheme">@style/Theme.Pawtner.Fullscreen</item>
     </style>
 
-    <style name="Theme.Pawtner.NoActionBar">
+    <style name="Theme.Pawtner.Fullscreen" parent="Theme.Pawtner">
         <item name="windowNoTitle">true</item>
         <item name="windowActionBar">false</item>
         <item name="android:windowFullscreen">true</item>

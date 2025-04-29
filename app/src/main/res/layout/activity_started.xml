@@ -27,7 +27,7 @@
         android:paddingStart="32dp"
         android:paddingEnd="32dp"
         android:text="@string/started.subtitle"
-        android:textColor="#888888"
+        android:textColor="@color/secondary_dark_grey"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -35,15 +35,13 @@
 
     <Button
         android:id="@+id/started.btnStart"
+        style="@style/Widget.Pawtner.Button"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginEnd="32dp"
-        android:backgroundTint="@color/primary_orange"
-        android:elevation="4dp"
         android:text="@string/started.btnStart"
-        android:textAllCaps="false"
-        android:textColor="@color/white"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/started.tvSubtitle" />
@@ -53,9 +51,23 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="32dp"
+        android:paddingBottom="15dp"
         android:text="@string/started.suggest"
-        android:textColor="#888888"
+        android:textColor="@color/secondary_dark_grey"
         android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/started.tvVersion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="Version 1.0.0"
+        android:textColor="@color/secondary_dark_grey"
+        android:textSize="10sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

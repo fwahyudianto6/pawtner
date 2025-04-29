@@ -1,6 +1,7 @@
 <resources>
     <!-- Application -->
     <string name="app_name">Pawtner</string>
+    <string name="content_desc">Todo ...</string>
 
     <!-- Navigation Menu -->
     <string name="menu_home">Home</string>
@@ -14,4 +15,14 @@
     <string name="started.subtitle">Temukan hewan berdasarkan keinginan kamu tanpa perlu keluar rumah hanya dengan menggunakan smartphone</string>
     <string name="started.btnStart">Mulai</string>
     <string name="started.suggest">Sudah punya akun? Masuk</string>
+
+    <!-- Auth Screen -->
+    <string name="auth.register.title">Buat Akun</string>
+    <string name="auth.register.hitUsername">Nama pengguna</string>
+    <string name="auth.register.hitEmail">Surel</string>
+    <string name="auth.register.hitPass">Kata sandi</string>
+    <string name="auth.register.hitCPass">Konfirmasi Kata sandi</string>
+    <string name="auth.login.title">Masuk</string>
+    <string name="auth.login.hitUsername">Nama pengguna atau email</string>
+    <string name="auth.login.hitPass">Kata sandi</string>
 </resources>

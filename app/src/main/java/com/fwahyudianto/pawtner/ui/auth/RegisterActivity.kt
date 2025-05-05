@@ -24,7 +24,7 @@ class RegisterActivity : AppCompatActivity() {
 
                 val intLogin = Intent(this, LoginActivity::class.java)
                 startActivity(intLogin)
-                finish()
+//                finish()
             }
         }
     }

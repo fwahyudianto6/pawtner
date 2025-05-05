@@ -2,6 +2,13 @@
     <!-- Application -->
     <string name="app_name">Pawtner</string>
     <string name="content_desc">Todo ...</string>
+    <string name="app_logout">Keluar</string>
+
+    <!-- DEVELOPER PROFILE -->
+    <string name="developer_photo">https://avatars.githubusercontent.com/u/12522356?v=4</string>
+    <string name="developer_name">Wahyudianto, Fajar</string>
+    <string name="developer_email">fwahyudi06@gmail.com</string>
+    <string name="developer_location">Tangerang, Indonesia</string>
 
     <!-- Navigation Menu -->
     <string name="menu_home">Home</string>
@@ -25,4 +32,7 @@
     <string name="auth.login.title">Masuk</string>
     <string name="auth.login.hitUsername">Nama pengguna atau email</string>
     <string name="auth.login.hitPass">Kata sandi</string>
+
+    <!-- Account Screen -->
+    <string name="account_favorite_pets">Hewan Peliharaan Favorit</string>
 </resources>

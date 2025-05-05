@@ -55,8 +55,10 @@ dependencies {
     //  Splashscreen
     implementation(libs.androidx.core.splashscreen)
 
-    //  Image Slider
+    //  Image (Slider)
     implementation(libs.imageslideshow)
+    implementation(libs.circleimageview)
+    implementation(libs.glide)
 
     //  Retrofit
     implementation(libs.retrofit)

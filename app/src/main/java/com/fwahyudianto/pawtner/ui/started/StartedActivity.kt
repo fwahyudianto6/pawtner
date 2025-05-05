@@ -47,6 +47,7 @@ class StartedActivity : AppCompatActivity() {
         binding.startedTvSuggest.setOnClickListener {
             val intLogin = Intent(this, LoginActivity::class.java)
             startActivity(intLogin)
+            finish()
         }
     }
 

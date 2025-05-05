@@ -51,4 +51,9 @@ class MainActivity : AppCompatActivity() {
             navController.navigate(R.id.navigation_mypets)
         }
     }
+
+    fun navigateToFavorite() {
+        findViewById<BottomNavigationView>(R.id.main_bottomNavView).selectedItemId =
+            R.id.navigation_favorite
+    }
 }
